@@ -1,10 +1,5 @@
 import './App.css'
-
 import { useState } from 'react'
-
-
-//Gerenciar o estado de algum valor
-// getter e setter
 
 function App() {
   const [number, setNumber] = useState(0)
@@ -27,17 +22,17 @@ function App() {
       SetRegistro(`Copo bebido as: ${date} ${registro}`);
       alerta();
       calculaMeta();
-      
     } else {
       alert("Não é possivel ter valores nulos ou negativos")
     }
   }
 
+  //Função puxando valor atrasado!
   const calculaMeta = () =>{
-    if(valorTotal >= meta){
+    if((valorTotal + parseFloat(valor)) >= meta){
       setMetaRestante(0)
     } else{
-      setMetaRestante(meta - valorTotal)
+      setMetaRestante(meta - (valorTotal + parseFloat(valor)))
     }
   }
 
