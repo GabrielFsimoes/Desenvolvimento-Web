@@ -26,8 +26,6 @@ function App() {
       alert("Não é possivel ter valores nulos ou negativos")
     }
   }
-
-  //Função puxando valor atrasado!
   const calculaMeta = () =>{
     if((valorTotal + parseFloat(valor)) >= meta){
       setMetaRestante(0)
