@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* #root { */
+/* background-color: rgba(255, 255, 255, 0.907); */
+/* background-image:  url(https://wallpaperaccess.com/full/562838.jpg);
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-size: larger;
+  border: 10px solid black;
+} */
+body {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfBRT8WkYqdm4pTnDtT4viZmU6Ww3AdRpHog&usqp=CAU);
+  background-size: cover;
+}
+
+#titulo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3%;
+  font-size: 2.8rem;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  padding: 5%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+#valores {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#info {
+  font-size: large;
+  margin-top: 10px;
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  flex-direction: column;
+}
+
+#meta {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#iconMeta {
+  width: 9vw;
+}
+
+#iconGota {
+  width: 10vw;
+}
+
+#coluna1 {
+  background-color: #e8e8e8;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #e8e8e8ef;
+  box-shadow: 10px 5px 5px black;
+  border-radius: 8px;
+  padding: 18px;
+}
+
+#coluna1 input {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 2px;
+  margin: 18px;
+  width: 90%;
+  border-radius: 5px;
+  box-shadow: 5px 3px 3px black;
+}
+
+#coluna2 {
+  background-color: #e8e8e8;
+  display: flex;
+  box-sizing: content-box;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 50vh;
+  width: 30vw;
+  border: 1px solid #e8e8e8ef;
+  box-shadow: 10px 5px 5px black;
+  border-radius: 8px;
+  padding: 18px;
+}
+
+#coluna2 h2{
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 15px;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  width: 20vw;
+}
+
+#registro{
+  height: 20%;
+  width: 12vw;
+}
